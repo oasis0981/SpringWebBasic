@@ -1,11 +1,20 @@
 package yungdo.hispring.repository;
 
+<<<<<<< HEAD
+=======
+import org.springframework.stereotype.Repository;
+import org.yaml.snakeyaml.events.Event;
+>>>>>>> 2319d258462015750ca0958984bee052abc92704
 import yungdo.hispring.domain.Member;
 
 import java.util.*;
 
 
+<<<<<<< HEAD
 //@Repository
+=======
+@Repository
+>>>>>>> 2319d258462015750ca0958984bee052abc92704
 public class MemoryMemberRepository implements MemberRepository {
 
     private static Map<Long, Member> store = new HashMap<>();

@@ -1,19 +1,35 @@
 // 비즈니스 메서드 만들기 (회원 서비스 개발)
 package yungdo.hispring.service;
 
+<<<<<<< HEAD
 import yungdo.hispring.domain.Member;
 import yungdo.hispring.repository.MemberRepository;
+=======
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import yungdo.hispring.domain.Member;
+import yungdo.hispring.repository.MemberRepository;
+import yungdo.hispring.repository.MemoryMemberRepository;
+>>>>>>> 2319d258462015750ca0958984bee052abc92704
 
 import java.util.List;
 import java.util.Optional;
 
+<<<<<<< HEAD
 
 //@Service // 스프링 컨테이너에 서비스라고 등록해주는 역할 ( 비즈니스로직 )
+=======
+@Service // 스프링 컨테이너에 서비스라고 등록해주는 역할 ( 비즈니스로직 )
+>>>>>>> 2319d258462015750ca0958984bee052abc92704
 public class MemberService {
 
     private final MemberRepository memberRepository;
 
+<<<<<<< HEAD
 //    @Autowired // dependency injection
+=======
+    @Autowired // dependency injection
+>>>>>>> 2319d258462015750ca0958984bee052abc92704
     public MemberService(MemberRepository memberRepository) {
         this.memberRepository = memberRepository;
     }

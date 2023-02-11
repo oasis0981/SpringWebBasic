@@ -1,6 +1,10 @@
 package yungdo.hispring.service;
 // ctrl + shift + T로 테스트 자동 생성
 import org.junit.jupiter.api.AfterEach;
+<<<<<<< HEAD
+=======
+import org.junit.jupiter.api.Assertions;
+>>>>>>> 2319d258462015750ca0958984bee052abc92704
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import yungdo.hispring.domain.Member;

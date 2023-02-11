@@ -2,9 +2,12 @@ package yungdo.hispring.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+<<<<<<< HEAD
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import yungdo.hispring.domain.Member;
+=======
+>>>>>>> 2319d258462015750ca0958984bee052abc92704
 import yungdo.hispring.service.MemberService;
 
 @Controller // 컨트롤러 : 외부 요청 받기
@@ -17,6 +20,7 @@ public class MemberController {
     public MemberController(MemberService memberService) {
         this.memberService = memberService;
     }
+<<<<<<< HEAD
 
     @GetMapping("/members/new")
     public String createForm(){
@@ -31,4 +35,6 @@ public class MemberController {
 
         return "redirect:/";
     }
+=======
+>>>>>>> 2319d258462015750ca0958984bee052abc92704
 }
