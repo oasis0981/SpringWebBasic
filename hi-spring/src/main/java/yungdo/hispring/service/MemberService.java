@@ -7,7 +7,6 @@ import yungdo.hispring.repository.MemberRepository;
 import java.util.List;
 import java.util.Optional;
 
-
 //@Service // 스프링 컨테이너에 서비스라고 등록해주는 역할 ( 비즈니스로직 )
 public class MemberService {
 
